@@ -80,10 +80,10 @@ if __name__ == "__main__":
                 cv2.imshow("Thesholded", thresholded)
                 # Set the directory CORRECTLY
                 thresholded = cv2.resize(thresholded, (120, 80))
-                directory = './train/5/frame' + str(imageNumber) + '.jpg'
+                directory = './train/Evening/frame' + str(imageNumber) + '.jpg'
                 cv2.imwrite(directory, thresholded)
                 flipped = cv2.flip(thresholded, 1)
-                directory2 = './train/5/flippedframe' + \
+                directory2 = './train/Evening/flippedframe' + \
                     str(imageNumber) + '.jpg'
                 cv2.imwrite(directory2, flipped)
                 imageNumber += 1
