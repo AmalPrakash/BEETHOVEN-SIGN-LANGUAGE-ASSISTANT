@@ -8,3 +8,5 @@ It's ok if you wanna give a shot and complete it.. I just effed up at some place
 
 Also don't forget to check on OpenCV Android dependencies..
 
+train.zip contains only 3 classes
+
